@@ -1,0 +1,7 @@
+from .SimpleRegressionModule import SimpleRegressionModule
+from .SimpleRegressionModuleWithTE import SimpleRegressionModuleWithTE
+
+from .SimpleCNNModule import SimpleCNNModule
+from .SimpleCNNModuleWithTE import SimpleCNNModuleWithTE
+
+from .MMAMLModules import GatedNet, GatedConvModel, LSTMEmbeddingModel, ConvEmbeddingModel
